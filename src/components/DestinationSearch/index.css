@@ -1,7 +1,6 @@
 /* Write your CSS here */
 .bg-container {
   background-color: #ffffff;
-  height: 100vh;
   text-align: center;
   padding: 20px;
   display: flex;
@@ -38,4 +37,10 @@
 .search-icon {
   height: 30px;
   width: 30px;
+}
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
 }
